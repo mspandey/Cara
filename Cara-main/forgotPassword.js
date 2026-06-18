@@ -65,8 +65,8 @@ document.getElementById('forgotForm').addEventListener('submit', function (e) {
     }
 
     /* update password */
-    users[userIndex].password = newPass;
-    localStorage.setItem('users', JSON.stringify(users));
+   showToast('Password reset functionality must be handled by the backend.', 'error');
+return;
 
     showToast('Password reset successful! Redirecting to login...', 'success');
 
@@ -76,4 +76,4 @@ document.getElementById('forgotForm').addEventListener('submit', function (e) {
     }, 2000);
   }, 1500);
 });
-
+
