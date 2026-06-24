@@ -4,13 +4,8 @@
 - **Frontend**: Clean semantic HTML5, modern vanilla CSS, responsive layouts, and app.js state handling.
 - **Database**: SQLite `cara.db` file mapping backend models.
 - **Workflows**: GitHub actions verify builds, run dependency checks, and auto-label code triage.
-- **Asset Assets**: Located under `assets/` and `images/` directories.
+- **Assets**: Located under `assets/` and `images/` directories.
 
-## Architecture Overview
-- **Frontend**: Clean semantic HTML5, modern vanilla CSS, responsive layouts, and app.js state handling.
-- **Database**: SQLite `cara.db` file mapping backend models.
-- **Workflows**: GitHub actions verify builds, run dependency checks, and auto-label code triage.
-- **Asset Assets**: Located under `assets/` and `images/` directories.
 
 > Officially participating in
 ## GSSOC 2026
@@ -119,6 +114,7 @@ All you need is a modern web browser and a text editor! Cara is designed for lig
 2. **Install development dependencies**
    ```bash
    npm install
+   
    ```
 
 3. **Verify linting and formatting**
@@ -312,7 +308,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
   <img src="https://contrib.rocks/image?repo=janavipandole/Cara" />
 </a>
 
-#### See full list of contributor contribution [Contribution Graph](https://github.com/janavipandole/Cara/graphs/contributors)  
+#### See full list of contributors [Contribution Graph](https://github.com/janavipandole/Cara/graphs/contributors)  
 ---
 
 ## ⭐ Show Your Support
